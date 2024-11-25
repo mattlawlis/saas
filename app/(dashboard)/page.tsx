@@ -10,13 +10,12 @@ export default function HomePage() {
           <div className="lg:grid lg:grid-cols-12 lg:gap-8">
             <div className="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
               <h1 className="text-4xl font-bold text-gray-900 tracking-tight sm:text-5xl md:text-6xl">
-                Build Your SaaS
-                <span className="block text-orange-500">Faster Than Ever</span>
+              Your AI-Powered 
+                <span className="block text-orange-500">Legal Companion for Texas Law</span>
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                Launch your SaaS product in record time with our powerful,
-                ready-to-use template. Packed with modern technologies and
-                essential integrations.
+              Introducing Texas Law Advisor, an advanced AI chatbot specializing in Texas law. Whether you're a legal professional aiming to 
+              streamline your workflow or an individual seeking quick legal insights, our chatbot provides accurate information at your fingertips—24/7.
               </p>
               <div className="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
                 <a
@@ -24,7 +23,7 @@ export default function HomePage() {
                   target="_blank"
                 >
                   <Button className="bg-white hover:bg-gray-100 text-black border border-gray-200 rounded-full text-lg px-8 py-4 inline-flex items-center justify-center">
-                    Deploy your own
+                    Subscribe Now
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Button>
                 </a>
@@ -51,11 +50,11 @@ export default function HomePage() {
               </div>
               <div className="mt-5">
                 <h2 className="text-lg font-medium text-gray-900">
-                  Next.js and React
+                Streamline Routine Legal Tasks
                 </h2>
                 <p className="mt-2 text-base text-gray-500">
-                  Leverage the power of modern web technologies for optimal
-                  performance and developer experience.
+                Tired of spending countless hours on document reviews, legal research, and drafting standard documents? 
+                The Texas Law Advisor automates these time-consuming tasks, allowing you to focus on delivering exceptional service to your clients.
                 </p>
               </div>
             </div>
@@ -66,11 +65,11 @@ export default function HomePage() {
               </div>
               <div className="mt-5">
                 <h2 className="text-lg font-medium text-gray-900">
-                  Postgres and Drizzle ORM
+                Enhance Efficiency and Decision-Making
                 </h2>
                 <p className="mt-2 text-base text-gray-500">
-                  Robust database solution with an intuitive ORM for efficient
-                  data management and scalability.
+                Time is a precious commodity in the legal field. Our AI analyzes vast amounts of legal data and precedents within seconds, providing you with 
+                precise insights that enable faster, more informed decisions. Turn hours of work into minutes and dedicate more time to strategizing and consulting.
                 </p>
               </div>
             </div>
@@ -81,11 +80,11 @@ export default function HomePage() {
               </div>
               <div className="mt-5">
                 <h2 className="text-lg font-medium text-gray-900">
-                  Stripe Integration
+                Gain a Competitive Edge
                 </h2>
                 <p className="mt-2 text-base text-gray-500">
-                  Seamless payment processing and subscription management with
-                  industry-leading Stripe integration.
+                In today's crowded legal market, staying ahead means embracing innovation. By integrating Texas Law Advisor into your practice, you position your firm as 
+                a leader in technological advancement, offering unparalleled service that sets you apart from the competition.
                 </p>
               </div>
             </div>
@@ -98,12 +97,11 @@ export default function HomePage() {
           <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
             <div>
               <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">
-                Ready to launch your SaaS?
+              Get Started with The Texas Law Advisor Today
               </h2>
               <p className="mt-3 max-w-3xl text-lg text-gray-500">
-                Our template provides everything you need to get your SaaS up
-                and running quickly. Don't waste time on boilerplate - focus on
-                what makes your product unique.
+              Ready to elevate your legal practice? Begin your journey with Texas Law Advisor now and experience the difference that cutting-edge AI technology can make. 
+              Your clients—and your bottom line—will thank you.
               </p>
             </div>
             <div className="mt-8 lg:mt-0 flex justify-center lg:justify-end">
@@ -112,7 +110,7 @@ export default function HomePage() {
                 target="_blank"
               >
                 <Button className="bg-white hover:bg-gray-100 text-black border border-gray-200 rounded-full text-xl px-12 py-6 inline-flex items-center justify-center">
-                  View the code
+                  Subscribe Now
                   <ArrowRight className="ml-3 h-6 w-6" />
                 </Button>
               </a>
