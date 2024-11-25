@@ -25,7 +25,7 @@ const config: Config = {
           foreground: 'hsl(var(--popover-foreground))',
         },
         primary: {
-          DEFAULT: '#002868',
+          DEFAULT: '#c11f31',
           foreground: '#ffffff',
         },
         secondary: {
@@ -55,7 +55,7 @@ const config: Config = {
           '5': 'hsl(var(--chart-5))',
         },
         orange: {
-          DEFAULT: '#002868',
+          DEFAULT: '#c11f31',
         },
       },
     },
