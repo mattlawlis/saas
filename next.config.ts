@@ -4,13 +4,15 @@ const nextConfig: NextConfig = {
   experimental: {
     ppr: true,
   },
-  webpack(config) {
+  webpack: (config) => {
     config.module.rules.push({
       test: /\.svg$/,
-      use: ['@svgr/webpack'],
+      issuer: /\.[jt]sx?$/,
+      use: ['@svgr/webpack']
     });
     return config;
   },
 };
 
 export default nextConfig;
+
